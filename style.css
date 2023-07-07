@@ -1,0 +1,18 @@
+.border_box{
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 15px;
+    margin:0 0 20px ; 
+    padding: 30px;
+    width: 500px;
+    align-items: center;
+
+}
+
+.parent {
+    display : flex; 
+    align-content   : center;  
+}
+
+.comment{
+    border-radius: 10px;
+}
