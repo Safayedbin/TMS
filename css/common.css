@@ -7,6 +7,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+ul li a {
+    text-decoration: none;
+    text-emphasis: none;
+    color: black;
+
+}
+
+
 .clr{
     clear: both;
 }
@@ -70,7 +78,7 @@ header .profile h5{
     margin-left: 2rem;
     margin-top: 2rem;
     box-shadow: 2px 2px 5px black;
-    width: 35rem;
+    width: 80%;
     padding: 1.5rem;
     border-radius: 1%;
 }
@@ -94,4 +102,22 @@ header .profile h5{
     object-fit: contain;
 
     
+}
+.sidebar{
+    position: relative;
+}
+.accordion.newsfeed{
+    width: 18%;
+    border: 2px black solid;
+    margin-top: 5rem;
+    position: fixed;
+    justify-content: center;
+}
+
+.accordion ul li  {
+    list-style-type: none;
+    text-transform: capitalize;
+    margin: 1rem 0rem;
+    border-bottom: 2px black solid;
+    font-size: 1.25rem;
 }
