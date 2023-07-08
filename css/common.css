@@ -53,20 +53,26 @@ header .profile h5{
     font-weight:bold ;
 
 }
+.sideprofile{
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
 .sideprofile a{
-    text-transform: capitalize;  width: 7rem;
+
+    text-transform: capitalize;  
+    width: 7rem;
 }
 .sideprofile .row {
     justify-content: center;
 
 }
-.box {
+.post {
     margin-left: 2rem;
     margin-top: 2rem;
-    border-color: black 1px solid;
-    height: 20rem;
-    width: 20rem;
-    background-color: #4169e1;
+    box-shadow: 2px 2px 5px black;
+    width: 35rem;
+    padding: 1.5rem;
+    border-radius: 1%;
 }
 .post-profile img {
     margin: 1.5rem 0rem 1rem 1.5rem;
@@ -80,4 +86,12 @@ header .profile h5{
     display: inline;
     font-size: 1rem;
     text-transform: capitalize;
+}
+.postpic img{
+    display: block;
+    width: 100%;
+    margin: 1rem 0rem ;
+    object-fit: contain;
+
+    
 }
