@@ -40,7 +40,7 @@ header{
     left: 7.5rem;
     object-fit: cover;
     border-radius: 50%;
-    display: overlay;
+    display: block;
     height: 13.5rem;
     width: 13.5rem;
 
@@ -52,4 +52,32 @@ header .profile h5{
     text-transform: capitalize;
     font-weight:bold ;
 
+}
+.sideprofile a{
+    text-transform: capitalize;  width: 7rem;
+}
+.sideprofile .row {
+    justify-content: center;
+
+}
+.box {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-color: black 1px solid;
+    height: 20rem;
+    width: 20rem;
+    background-color: #4169e1;
+}
+.post-profile img {
+    margin: 1.5rem 0rem 1rem 1.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.post-profile h5{
+    display: inline;
+    font-size: 1rem;
+    text-transform: capitalize;
 }
