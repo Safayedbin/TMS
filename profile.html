@@ -1,183 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css"
-    integrity="sha512-KXol4x3sVoO+8ZsWPFI/r5KBVB/ssCGB5tsv2nVOKwLg33wTFP3fmnXa47FdSVIshVTgsYk/1734xSk9aFIa4A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"
-    integrity="sha512-Xo0Jh8MsOn72LGV8kU5LsclG7SUzJsWGhXbWcYs2MAmChkQzwiW/yTQwdJ8w6UA9C6EVG18GHb/TrYpYCjyAQw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/common.css">
+    <title>Document</title>
 </head>
-
 <body>
-<img src="img/ellips.jpg" height="120" width="120" style="border-radius: 50%;">
-<h3>Ellen evan</h3>
-<h5>1k friends.536 following</h5>
-<div class="ui seven item menu">
-  <a class="active item">Posts</a>
-  <a class="item">About</a>
-  <a class="item">Photos</a>
-  <a class="item">Videos</a>
-  <a class="item">Friends</a>
-  <a class="item">Car Details</a>
-  <a class="item">More</a>
-</div><br><br>
-
-<textarea rows="5" cols="35" style="border-radius: 5%;">What's on your mind?</textarea><br><br>
-
-<div class="ui segment">
-  <h3>Pinned Post</h3>
-
-  <div class="ui one stackable cards">
-    <div class="ui centered card" style="width: 50%;">
-      <div class="card">
-        <div class="content">
-          <img class="right floated mini ui image" src="img/ellips.jpg">
-          <div class="header">
-            <h3>Ellen evan</h3>
-          </div><br>
-  
-          <div class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          </div>
-        </div><br>
-        <img src="img/car.jpg" height="250" width="500"><br><br>
-        <div class="content">
-          <span class="right floated">
-            <i class="heart outline like icon"></i>
-            17 likes
-          </span>
-          <i class="comment icon"></i>
-          3 comments
-        </div>
-        <div class="extra content">
-          <div class="ui large transparent left icon input">
-            <i class="heart outline icon"></i>
-            <input type="text" placeholder="Add Comment...">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="newsfeed.html">Newsfeed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="maps.html">Maps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profile.html">Profile</a>
+              </li>
+              
+            </ul>
           </div>
         </div>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
+      </nav>
+    <!--Navbar-->
+      <div class="clr"></div>
+    <!--profile -->
+      <!--cover -->
 
-<div class="ui segment">
-  <h3>Other Posts</h3>
-
-  <div class="ui one stackable cards">
-    <div class="ui centered card" style="width: 50%;">
-      <div class="card">
-        <div class="content">
-          <img class="right floated mini ui image" src="img/ellips.jpg">
-          <div class="header">
-            <h3>Ellen evan</h3>
-          </div><br>
-  
-          <div class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          </div>
-        </div><br>
-        <img src="img/OIP (2).jpg" height="250" width="500">
-        <div class="content">
-          <span class="right floated">
-            <i class="heart outline like icon"></i>
-            17 likes
-          </span>
-          <i class="comment icon"></i>
-          3 comments
+      <!--cover -->
+      <header>
+        <div class="cover">
+          <img src="images/car.jpg" alt="">
         </div>
-        <div class="extra content">
-          <div class="ui large transparent left icon input">
-            <i class="heart outline icon"></i>
-            <input type="text" placeholder="Add Comment...">
-          </div>
+        <div class="moon-profile">
+          <img src="images/profile.jpg" alt="">
         </div>
-      </div>
-      </div>
-    </div>
-  </div>
-  <div class="ui one stackable cards">
-    <div class="ui centered card" style="width: 50%;">
-      <div class="card">
-        <div class="content">
-          <img class="right floated mini ui image" src="img/ellips.jpg">
-          <div class="header">
-            <h3>Ellen evan</h3>
-          </div><br>
-  
-          <div class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          </div>
-        </div><br>
-        <div class="content">
-          <span class="right floated">
-            <i class="heart outline like icon"></i>
-            17 likes
-          </span>
-          <i class="comment icon"></i>
-          3 comments
+        <div class="profile">
+          <h5> profile name</h5>
         </div>
-        <div class="extra content">
-          <div class="ui large transparent left icon input">
-            <i class="heart outline icon"></i>
-            <input type="text" placeholder="Add Comment...">
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-  <div class="ui one stackable cards">
-    <div class="ui centered card" style="width: 50%;">
-      <div class="card">
-        <div class="content">
-          <img class="right floated mini ui image" src="img/ellips.jpg">
-          <div class="header">
-            <h3>Ellen evan</h3>
-          </div><br>
-  
-          <div class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          </div>
-        </div><br>
-        <img src="img/car.jpg" height="250" width="500">
-        <div class="content">
-          <span class="right floated">
-            <i class="heart outline like icon"></i>
-            17 likes
-          </span>
-          <i class="comment icon"></i>
-          3 comments
-        </div>
-        <div class="extra content">
-          <div class="ui large transparent left icon input">
-            <i class="heart outline icon"></i>
-            <input type="text" placeholder="Add Comment...">
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
+      </header>
+      <div class="clr"></div>
+    <!--profile -->
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-
-</html>
+</html>l

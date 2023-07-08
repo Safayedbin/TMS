@@ -1,0 +1,8 @@
+.parent {
+    display : flex; 
+    align-content   : center;  
+}
+
+.comment{
+    border-radius: 10px;
+}
