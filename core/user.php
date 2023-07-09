@@ -13,8 +13,8 @@ class user extends database{
         return $result;
     }
 
-    public function post_add($title,$date,$userid){
-        $query = "INSERT INTO post(date ,title,user_id,task_con) value ('$date','$title','$userid','False')";
+    public function post_add($content,$date,$image){
+        $query = "INSERT INTO post('post_id', 'posted_at', 'image_id', 'content') value ('','$date','$image','$content')";
         $this->data_write($query);
     }
     public function newsfeed($user_id){
